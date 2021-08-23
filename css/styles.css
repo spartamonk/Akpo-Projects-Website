@@ -483,11 +483,13 @@ Projects
 .project-title p {
   width: 85vw;
   max-width: 30rem;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .project-title .underline {
   margin-bottom: 1.25rem;
 }
+
 .project {
   height: 15rem;
   margin-bottom: 2rem;
@@ -933,6 +935,6 @@ Products Page
   grid-template-columns: repeat(auto-fill, minmax(20.625rem, 1fr));
   gap: 3rem 1rem;
 }
-.project-title {
+.project-hero-title {
   margin-bottom: 0;
 }
